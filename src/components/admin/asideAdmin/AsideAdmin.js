@@ -280,7 +280,7 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
 
     return (
         <>
-            <aside className={`SidebarMain mCustomScrollbar _mCS_1 mCS-autoHide sidebar ${isOpen ? "collapseddd" : ""}`} id="aside" >
+            <aside className={`SidebarMain mCustomScrollbar _mCS_1 mCS-autoHide sidebar d-none ${isOpen ? "collapseddd" : ""}`} id="aside" >
                 {/* <aside className={`SidebarMain mCustomScrollbar _mCS_1 mCS-autoHide sidebar ${isActive ? 'hide-sidebar' : ''}`} id="aside" > */}
 
                 {/* className="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" */}

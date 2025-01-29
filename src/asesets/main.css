@@ -28963,7 +28963,7 @@ aside.SidebarMain .MenuItem .card-header a>i svg path {
 
 .LayoutMain header.HeaderMain {
   flex-shrink: 0;
-  height: 50px;
+  height: 56px;
 }
 
 header.HeaderMain {
@@ -28979,6 +28979,7 @@ header.HeaderMain .logo {
   width: 15rem;
   height: 100%;
   /* background: #1e5591; */
+  margin-left: 15px;
 }
 
 header.HeaderMain .logo svg {
@@ -29528,7 +29529,8 @@ aside.SidebarMain .MenuItem .SubmenuItems ul li a::before {
 }
 
 .HeaderContainer {
-  background: #2c5aa9;
+  background: #ffffff;
+  /* height: 97px; */
 }
 
 .invalid {
@@ -29641,7 +29643,8 @@ aside.SidebarMain .MenuItem .SubmenuItems ul li a::before {
 
 .btn-login {
   width: 100%;
-  background: -webkit-linear-gradient(right, #2227cd, #7a0e9f, #1015bf, #7a0e9f);
+  /* background: -webkit-linear-gradient(right, #2227cd, #7a0e9f, #1015bf, #7a0e9f); */
+  background: #0077b5 !important;
   padding: 10px;
   text-align: center;
   border-radius: 13px !important;
