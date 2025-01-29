@@ -296,7 +296,8 @@ textarea {
 .fixed_headers tbody td{font-size:12px !important;padding:1px !important;margin:0px !important;vertical-align:middle !important;}
 .fixed_headers thead th{cursor:pointer !important;}*/
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow: hidden;
 }
 
 #loader-wrapper {
@@ -1590,7 +1591,7 @@ div.DialogMask {
 }
 
 .px-2 .notification svg {
-    color: #fff;
+    color: #000;
     font-size: 20px !important;
 }
 
@@ -1868,7 +1869,7 @@ div.DialogMask {
 } */
 
 .container-login100 {
-    background-image: url('../banner/premium_photo-1664476845274-27c2dabdd7f0.jpeg');
+    background-image: url('../banner/2068754.jpg');
 }
 
 .login-area-sec {
@@ -3281,12 +3282,12 @@ img {
 }
 
 .logo a img {
-    width: 186px;
+    width: 52px;
     height: 49px;
 }
 
 .header-sec .image-log {
-    width: 137px;
+    width: 48px;
 }
 
 .action-btton svg {
@@ -4531,4 +4532,18 @@ table tr:nth-child(even) td {
     align-items: center;
     justify-content: center;
     /* margin-top: 30px; */
+}
+
+.nav-item {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item a svg {
+    font-size: 30px !important;
 }

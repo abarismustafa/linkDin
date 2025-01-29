@@ -184,7 +184,7 @@ function MerchantLoginForm({ handleSubmitChange }) {
                 window.localStorage.setItem("regisNumber", res.data?.mobile);
                 toastSuccessMessage(res?.data?.message || 'Login Successfully')
                 setTimeout(() => {
-                    navigate('/dashboard')
+                    navigate('/home')
                     window.location.reload()
                 }, 1000);
 

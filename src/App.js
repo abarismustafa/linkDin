@@ -314,7 +314,7 @@ function App() {
           {/* <Route path="" element={<DasBoardPage />} > */}
           {/* <Route path='/Dashboard' element={<DaseboardCheckPage walletData={walletData} services={services} />} /> */}
           <Route path="/home/playNif50" element={<PlayNif50Page />} />
-          <Route path='dashboard' element={<DashboardPalyNifPage />} />
+          <Route path='home' element={<DashboardPalyNifPage />} />
 
           <Route path='wallet-report' element={<WalletReportPage />} />
           <Route path='package-payment-report' element={<ContestPaymentReportPage />} />
