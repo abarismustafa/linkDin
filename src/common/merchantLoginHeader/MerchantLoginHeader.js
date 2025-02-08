@@ -23,7 +23,7 @@ function MerchantLoginHeader({ loginForm, handleSubmitBack, currentPage }) {
                         <div className="col-lg-12">
                             <div className="header-sec pt-2 pb-2">
                                 <div className="image-log">
-                                    <img src='https://cdn-icons-png.flaticon.com/256/3536/3536505.png' alt="" />
+                                    <img src='https://www.abarissoftech.com/assets/img/logo-2.png' alt="" />
                                 </div>
                                 <div className='buttonArea'>
                                     {/* {loginForm ? <Link to="/login-area" className='btn login-area me-3'>Log Out</Link> : <Link to="/login-area" className='btn login-area me-3' onClick={handleSubmitBack}>LOGIN</Link>}

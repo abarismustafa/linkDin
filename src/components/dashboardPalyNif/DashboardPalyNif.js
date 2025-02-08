@@ -14,11 +14,11 @@ function DashboardPalyNif() {
             {/* <div className="ContentArea">
                 <div className="card ContentArea-card">
                     <div className="card-body"> */}
-            <div class="container py-4">
-                <div class="row">
+            <div className="container py-4">
+                <div className="row">
                     <Left />
-                    {/* <Middle />
-                    <Right /> */}
+                    <Middle />
+                    <Right />
                 </div>
             </div>
             {/* </div >

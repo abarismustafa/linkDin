@@ -8,11 +8,13 @@
     text-align: center;
 }
 
-.profile-image {
+.profile-image-link {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 3px dotted;
+    padding: 3px;
 }
 
 .trending-section {
@@ -24,4 +26,157 @@
     background: #fff;
     margin-bottom: 20px;
     padding: 15px;
+}
+
+.profile-image-sec {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.setel .ai-input {
+    height: 50px;
+    border-radius: 30px
+}
+
+.btn-light-light {
+    font-weight: 600;
+}
+
+.post-sect {
+    width: 100%;
+    height: 100%;
+}
+
+.post-sect img {
+    width: 100% !important;
+    /* height: 600px; */
+    object-fit: cover;
+}
+
+.like-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.like-comment p {
+    margin: 0px;
+}
+
+.media-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.comment-box {
+    /* border: 1px solid #ddd; */
+    /* border-radius: 10px; */
+    padding: 10px;
+    background: #fff;
+}
+
+.comment-box-sec .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.comment-text {
+    margin: 5px 0;
+}
+
+.reply {
+    margin-left: 50px;
+    border-left: 2px solid #ddd;
+    padding-left: 15px;
+}
+
+.author-badge {
+    background: #ccc;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.coment-input .ai-input {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+
+}
+
+.coment-input {
+    width: 100%;
+    position: relative;
+}
+
+.emogi-icon svg {
+    font-size: 25px !important;
+}
+
+.coment-input .emogi-icon {
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    background-color: #fff;
+}
+
+.imogi-set {
+    position: absolute;
+    top: 45px;
+    right: -154px;
+}
+
+
+.select-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.select-pro {
+    display: flex;
+    align-items: center;
+}
+
+.name-self h4,
+.name-self p {
+    margin: 0;
+}
+
+.name-self h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name-self p {
+    font-size: 14px;
+    color: #666;
+}
+
+.select-input-set {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.select-input-set .form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-light-light svg {
+    font-size: 26px !important;
 }

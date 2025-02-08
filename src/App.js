@@ -14,6 +14,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 
+
+
 import { useEffect, useState } from 'react';
 
 
@@ -207,6 +209,8 @@ import ReferalIncomePage from './pages/income/referalIncome';
 import SocityIncomePage from './pages/income/socityIncome';
 import EarningCycleBounusPage from './pages/income/earningCycleBounus';
 import BinaryTree from './components/binerytree/BinaryTree';
+import JobPage from './pages/job';
+import PremimiunPage from './pages/premium';
 
 
 function App() {
@@ -298,9 +302,6 @@ function App() {
     <>
       {/* {isLogin == 'false' && <Header setislogin={setislogin} />} */}
       {/* <Header /> */}
-
-
-
       <Routes>
         <Route path='login-area' element={<MerchantLoginAreaPage />} />
         <Route path='Signup' element={<SinUpMerchantPage position={position} />} />
@@ -315,6 +316,12 @@ function App() {
           {/* <Route path='/Dashboard' element={<DaseboardCheckPage walletData={walletData} services={services} />} /> */}
           <Route path="/home/playNif50" element={<PlayNif50Page />} />
           <Route path='home' element={<DashboardPalyNifPage />} />
+          <Route path='job' element={<JobPage />} />
+          <Route path='premium' element={<PremimiunPage />} />
+
+
+
+
 
           <Route path='wallet-report' element={<WalletReportPage />} />
           <Route path='package-payment-report' element={<ContestPaymentReportPage />} />

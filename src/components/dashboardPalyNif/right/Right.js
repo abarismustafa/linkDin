@@ -4,7 +4,7 @@ import React from 'react'
 const Right = () => {
     return (
         <>
-            <div className="col-md-3">
+            <div className="col-lg-3">
                 <div className="card-home trending-section">
                     <h5>Trending Now</h5>
                     <ul className="list-unstyled">
