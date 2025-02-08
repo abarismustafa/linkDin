@@ -1,0 +1,32 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.editor-container input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editor img {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.editor-container input[type="range"] {
+    width: 300px;
+}
