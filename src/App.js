@@ -16,6 +16,9 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 
+
+
+
 import { useEffect, useState } from 'react';
 
 
@@ -209,9 +212,10 @@ import ReferalIncomePage from './pages/income/referalIncome';
 import SocityIncomePage from './pages/income/socityIncome';
 import EarningCycleBounusPage from './pages/income/earningCycleBounus';
 import BinaryTree from './components/binerytree/BinaryTree';
-import JobPage from './pages/job';
-import PremimiunPage from './pages/premium';
+import MyNetworkPages from './pages/myNetworkPages';
 
+import JobPage from './pages/job';
+import PremimiunPage from './pages/premium'
 
 function App() {
   const [isLogin, setislogin] = useState(window.localStorage.getItem('login'))
@@ -318,9 +322,6 @@ function App() {
           <Route path='home' element={<DashboardPalyNifPage />} />
           <Route path='job' element={<JobPage />} />
           <Route path='premium' element={<PremimiunPage />} />
-
-
-
 
 
           <Route path='wallet-report' element={<WalletReportPage />} />
@@ -482,6 +483,10 @@ function App() {
           <Route path="aibot/User-Panel/Member/binarytree" element={<Bainarytree />} />
 
           <Route path="binarytree" element={<BinaryTree />} />
+
+          {/* ==================================MOIN ROUTES START============================== */}
+          <Route path="my-networks" element={<MyNetworkPages />} />
+          {/* ==================================MOIN ROUTES END============================== */}
 
 
           {/* suhaib */}

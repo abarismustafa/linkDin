@@ -209,7 +209,7 @@ function AdminHeader({ walletData, handleClick, toggleSidebar, handleMenuClick, 
 
                         </div>
                         <div className="nav-item">
-                            <Link to='#'>
+                            <Link to='my-networks'>
                                 <FaNetworkWired className='nav-icon' />
                                 <p>My Network</p>
                             </Link>
