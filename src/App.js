@@ -11,6 +11,8 @@ import './asesets/css/selectMin.css'
 import './asesets/css/responsive.css'
 import "react-toastify/dist/ReactToastify.css";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -207,6 +209,7 @@ import ReferalIncomePage from './pages/income/referalIncome';
 import SocityIncomePage from './pages/income/socityIncome';
 import EarningCycleBounusPage from './pages/income/earningCycleBounus';
 import BinaryTree from './components/binerytree/BinaryTree';
+import MyNetworkPages from './pages/myNetworkPages';
 
 
 function App() {
@@ -475,6 +478,10 @@ function App() {
           <Route path="aibot/User-Panel/Member/binarytree" element={<Bainarytree />} />
 
           <Route path="binarytree" element={<BinaryTree />} />
+
+          {/* ==================================MOIN ROUTES START============================== */}
+          <Route path="my-networks" element={<MyNetworkPages />} />
+          {/* ==================================MOIN ROUTES END============================== */}
 
 
           {/* suhaib */}
