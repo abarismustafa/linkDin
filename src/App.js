@@ -11,8 +11,11 @@ import './asesets/css/selectMin.css'
 import './asesets/css/responsive.css'
 import "react-toastify/dist/ReactToastify.css";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+
+
+
+
 
 
 
@@ -211,6 +214,8 @@ import EarningCycleBounusPage from './pages/income/earningCycleBounus';
 import BinaryTree from './components/binerytree/BinaryTree';
 import MyNetworkPages from './pages/myNetworkPages';
 
+import JobPage from './pages/job';
+import PremimiunPage from './pages/premium'
 
 function App() {
   const [isLogin, setislogin] = useState(window.localStorage.getItem('login'))
@@ -301,9 +306,6 @@ function App() {
     <>
       {/* {isLogin == 'false' && <Header setislogin={setislogin} />} */}
       {/* <Header /> */}
-
-
-
       <Routes>
         <Route path='login-area' element={<MerchantLoginAreaPage />} />
         <Route path='Signup' element={<SinUpMerchantPage position={position} />} />
@@ -318,6 +320,9 @@ function App() {
           {/* <Route path='/Dashboard' element={<DaseboardCheckPage walletData={walletData} services={services} />} /> */}
           <Route path="/home/playNif50" element={<PlayNif50Page />} />
           <Route path='home' element={<DashboardPalyNifPage />} />
+          <Route path='job' element={<JobPage />} />
+          <Route path='premium' element={<PremimiunPage />} />
+
 
           <Route path='wallet-report' element={<WalletReportPage />} />
           <Route path='package-payment-report' element={<ContestPaymentReportPage />} />
